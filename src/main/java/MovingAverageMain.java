@@ -6,8 +6,6 @@ import MovingAverage.MovingAverageImpl;
  * shows average for list smaller than range N
  * shows average for list same size and bigger than N for last N values
  * shows added values as list
- *
- * @author Emmanuel Ambele
  */
 
 public class MovingAverageMain {

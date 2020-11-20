@@ -54,5 +54,15 @@ public class MovingAverageImplTest {
         movingAverage.addValue(5d);
         assertEquals(3.5, movingAverage.calculateMovingAverage(), 0.0);
     }
+    @Test
+    public void calculateAverageWhenRangeIsEqualToZero() {
+        movingAverage = new MovingAverageImpl(0);
+        movingAverage.addValue(1d);
+        movingAverage.addValue(2d);
+        movingAverage.addValue(3d);
+        movingAverage.addValue(4d);
+        movingAverage.addValue(5d);
+        assertEquals(0.0, movingAverage.calculateMovingAverage(), 0.0);
+    }
 
 }

@@ -6,7 +6,6 @@ import java.util.List;
 /**
  * This class implements the MovingAverage.MovingAverage interface
  *
- * @author Emmanuel Ambele
  */
 public class MovingAverageImpl implements MovingAverage<Double> {
     //Number of elements to be calculated
