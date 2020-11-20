@@ -23,11 +23,11 @@ We need to provide Google Analytic like services to our customers. Please provid
 4. Run with minimum downtime.
 5. Have the ability to reprocess historical data in case of bugs in the processing logic.
 
-##Coding Solution Doc
+## Coding Solution Doc
 
 This code is the solution to the above coding question for finding the moving average. The code contains the interface, and the implementation of the interface.
 
-###Interface(MovingAverage.java)
+### Interface(MovingAverage.java)
 The interface contains 3 methods which are listed below
 1. calculateMovingAverage
 2. addValue
@@ -37,7 +37,7 @@ This interface state these methods as any class which implements the inherits th
 These are the minimum number of methods in order to get the moving average and fulfill the requirements given in the question.
 The interface aldo has a generic type which is used to bind the interface to whatever type has been set by the implementation class.
 
-###Implementation(MovingAverageImpl.java)
+### Implementation(MovingAverageImpl.java)
 The implementation class implements the interface(MovingAverage.java) and its generic type set to Double, this is to make up for number with decimal values.
 
 The class has a constructor which takes the N value as a parameter, the underlying data structure to store the values is a list, which is 
@@ -60,7 +60,7 @@ getAddedValue
 
 This method gets the current values that have been added to the list.
 
-##Design Solution Doc
+## Design Solution Doc
 
-Check Design.pdf 
+Refer to Design.pdf 
 
