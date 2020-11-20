@@ -62,5 +62,5 @@ This method gets the current values that have been added to the list.
 
 ##Design Solution Doc
 
-Check Design.pdf 
+Refer to Design.pdf 
 
