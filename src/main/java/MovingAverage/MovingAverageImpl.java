@@ -1,6 +1,4 @@
-package MovingAverage;
-
-import MovingAverage.MovingAverage;
+package MovingAverage;;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,11 +34,11 @@ public class MovingAverageImpl implements MovingAverage<Double> {
     public Double calculateMovingAverage() {
 
         if (range > 0 && numberList.size() >= range) {
-            return (sum / range); // Return average
+            return (sum / range);
         } else if (numberList.size() < range) {
             System.out.print("Warning: List size of " + numberList.size() + " is less than set range of "+range+"," +
                     " unfair average! ");
-            return (sum / range); // Return average, assuming the unfilled values to be zero;
+            return (sum / range);
         }
         return 0d;
     }

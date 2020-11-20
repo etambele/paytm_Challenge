@@ -13,8 +13,8 @@ import MovingAverage.MovingAverageImpl;
 public class MovingAverageMain {
 
     public static void main(String[] args) {
-        int range = 3; // This is same as 'N' in the question
-        MovingAverage<Double> movingAverage = new MovingAverageImpl(range);
+        int N = 3;
+        MovingAverage<Double> movingAverage = new MovingAverageImpl(N);
         movingAverage.addValue(5d);
         movingAverage.addValue(7d);
 
